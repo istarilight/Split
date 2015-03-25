@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="theme.split" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/theme.split.actionbar</item>
+    </style>
+
+    <style name="theme.split.actionbar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/actionbar.white</item>
+    </style>
+
+    <color name="actionbar.white">#FFFFFF</color>
+
+    <color name="app_selector_green">#9FF781</color>
+</resources>
